@@ -22,6 +22,6 @@ public class Test3
 		
 		HomePage_JDWPF hp = PageFactory.initElements(driver, HomePage_JDWPF.class);
 		
-		hp.searchProduct1();
+		hp.setValueInSearchTxtBox("fkhfk");
 	}
 }

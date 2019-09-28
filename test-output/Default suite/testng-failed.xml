@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nbrown.testscenario.JDW.Test3">
+      <class name="com.nbrown.testscenario.JDW.DesiredCapability2">
         <methods>
-          <include name="searchProduct"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- com.nbrown.testscenario.JDW.Test3 -->
+      </class> <!-- com.nbrown.testscenario.JDW.DesiredCapability2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

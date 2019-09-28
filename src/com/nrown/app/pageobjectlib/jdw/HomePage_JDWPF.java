@@ -25,6 +25,25 @@ public class HomePage_JDWPF
 	private WebElement signInLnk;
 
 	
+	
+	public void setValueInSearchTxtBox(String val)
+	{
+		searchTxtBox.sendKeys(val);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void searchProduct1()
 	{
 		searchTxtBox.sendKeys("Jeans");
